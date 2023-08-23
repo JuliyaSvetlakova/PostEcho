@@ -22,6 +22,6 @@ public class PostEchoTest {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("Hi"));
+                .body("data", equalTo("Bye"));
     }
 }
